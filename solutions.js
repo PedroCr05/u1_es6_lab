@@ -46,7 +46,7 @@ const personalFavFoods = {
     }
 }
 
-// console.log(`My top three favorite dishes are: ${personalFavFoods.firstFav.dishName}, ${personalFavFoods.secondFav.dishName}, and lastly ${personalFavFoods.thirdFav.dishName}.`);
+console.log(`My top three favorite dishes are: ${personalFavFoods.firstFav.dishName}, ${personalFavFoods.secondFav.dishName}, and lastly ${personalFavFoods.thirdFav.dishName}.`);
 
 const teamFavFoods = {
     favFoodsByJason: {
@@ -93,4 +93,4 @@ const petInfo = {
 
 const { catName, catAge, catBreed } = petInfo;
 const { myName, myAge, hometown } = myInfo;
-// console.log(`Hello my name is ${myName}. I am ${myAge} years old! My hometown where I grew up in is caled ${hometown}. I also am a proud owner of a pretty kitty! Her name is ${catName}!`);
+console.log(`Hello my name is ${myName}. I am ${myAge} years old! My hometown where I grew up in is caled ${hometown}. I also am a proud owner of a pretty kitty! Her name is ${catName}!`);
